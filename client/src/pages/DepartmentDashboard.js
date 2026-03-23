@@ -47,10 +47,7 @@ const DepartmentDashboard = () => {
 
   return (
     <div>
-      <Dashboard
-        stats={stats}
-        title={`Department Dashboard${user?.department ? '' : ''}`}
-      />
+      <Dashboard stats={stats} title="Department Dashboard" />
 
       <div className="card">
         <div
